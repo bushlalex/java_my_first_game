@@ -8,7 +8,15 @@ function getComputerChoise () {
     }
     else return "scissors";
 }
-getComputerChoise ()
+
+function getHumanChoise () {
+    let select = document.querySelector('select');
+    return select.value;
+
+    
+} 
+
+
 
 
 

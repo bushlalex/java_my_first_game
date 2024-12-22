@@ -7,7 +7,29 @@
     <script src=rock.js></script>
 </head>
 <body>
-    
+ <div>
+    <h1>Игра камень/ножницы/бумага</h1>
+ </div>
+ <div>
+    <label for="player">Выберите:</label>
+    <select id="player1">
+        <option value="rock">rock</option>
+        <option value="paper">paper</option>
+        <option value="scissors">scissors</option>
+    </select>
+    <button onclick="playGame()">Играть</button>
+ </div>
+ <div id="result">
+    <p class="computer choise"></p>
+    <p class="whowin"></p>
+    <p class="score"></p>
+ </div>
+ <style>
+    * {
+     margin: 7px;
+    }
+ </style>    
+
     
 </body>
 </html>
